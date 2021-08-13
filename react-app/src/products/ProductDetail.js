@@ -30,9 +30,9 @@ function ProductDetail({
     setProduct({ ...product, description: e.target.value });
   }
 
-  function handleQuantityChange(e) {
-    setProduct({ ...product, quantity: e.target.value });
-  }
+  // function handleQuantityChange(e) {
+  //   setProduct({ ...product, quantity: e.target.value });
+  // }
 
   return (
     <div className="card edit-detail">
@@ -48,18 +48,18 @@ function ProductDetail({
             <InputDetail name="id" value={product.id} readOnly="true" />
           )}
           <InputDetail
-            name="name"
+            name="author"
             value={product.name}
-            placeholder="Oranges"
+            placeholder="나태주, 풀꽃"
             onChange={handleNameChange}
           />
           <InputDetail
-            name="description"
+            name="quote"
             value={product.description}
-            placeholder="box"
+            placeholder="자세히 보아야 예쁘다. 오래 보아야 사랑스럽다. 너도 그렇다."
             onChange={handleDescriptionChange}
           />
-          <div className="field">
+          {/* <div className="field">
             <label className="label" htmlFor="quantity">
               quantity
             </label>
@@ -73,7 +73,7 @@ function ProductDetail({
               placeholder="1"
               onChange={handleQuantityChange}
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <footer className="card-footer ">
