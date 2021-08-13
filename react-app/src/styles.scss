@@ -12,6 +12,11 @@ $shade-light: #fafafa;
 
 @import 'bulma/bulma.sass';
 
+@font-face { 
+  font-family: "nanum";
+  src: url("./font/nanum.ttf"); 
+} 
+
 .menu-list .active-link,
 .menu-list .router-link-active {
   color: #fff;
@@ -169,4 +174,9 @@ button.link {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+.about-chamomile {
+  font-family: nanum;
+  font-size: 26px;
 }
