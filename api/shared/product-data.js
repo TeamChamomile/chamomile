@@ -20,11 +20,16 @@ const data = {
       name: '파올로 코엘료 마법의 순간',
       description: '거짓말이 달아준 날개로 당신은 얼마든지 멀리 갈 수 있습니다. 그렇지만 다시 돌아오는 길은 어디에도 없어요.',
     },
+    {
+      id: 4,
+      name: '나태주, 풀꽃',
+      description: '자세히 보아야 예쁘다. 오래 보아야 사랑스럽다. 너도 그렇다.',
+    }
   ],
 };
 
 const getRandomInt = () => {
-  const rand_0_9 = Math.floor(Math.random() * 4);
+  const rand_0_9 = Math.floor(Math.random() * 5);
   return rand_0_9
 };
 
@@ -48,9 +53,9 @@ const deleteProduct = (id) => {
 };
 
 const getProducts = () => {
-  a= getRandomInt()
+  a = getRandomInt()
   //console.log(data.products[a]["description"])
   return data.products[a]
 };
 
-module.exports = { addProduct, updateProduct, deleteProduct, getProducts};
+module.exports = { addProduct, updateProduct, deleteProduct, getProducts };
