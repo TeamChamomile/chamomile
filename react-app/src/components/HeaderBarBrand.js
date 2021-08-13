@@ -5,11 +5,10 @@ const HeaderBarBrand = () => (
   <div className="navbar-brand">
     <a
       className="navbar-item"
-      href="https://reactjs.org/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i className="fas fa-coffee fa-2x" aria-hidden="true"/> 
+      <i className="fas fa-coffee fa-2x" aria-hidden="true" />
     </a>
     <NavLink to="/" className="navbar-item nav-home">
       <span className="brand-first">CHA</span>
