@@ -11,6 +11,9 @@ const NavBar = (props) => (
       <NavLink to="/about" activeClassName="active-link">
         About
       </NavLink>
+      <NavLink to="/examination" activeClassName="active-link">
+        Examination
+      </NavLink>
     </ul>
     {props.children}
   </nav>
