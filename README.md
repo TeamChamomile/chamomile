@@ -11,19 +11,19 @@ https://english.hani.co.kr/arti/english_edition/e_national/996602.html)
 
 # 로컬에서 실행하는 방법
 1. 리포지토리 Clone.
-```git clone https://github.com/TeamChamomile/chamomile/.git```
+    ```git clone https://github.com/TeamChamomile/chamomile/.git```
 1. /chamomile/react-app 으로 이동해서 npm 패키지를 다운로드.
-```npm install```
+    ```npm install```
 1. Azure Functions Core Tools 설치.
-[Azure Functions Core Tools 기술 문서](https://docs.microsoft.com/ko-kr/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash)
+[Azure Functions Core Tools 다운로드](https://docs.microsoft.com/ko-kr/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash)
 1. /chamomile/api 아래 local.settings.json 파일을 생성하여 다음 내용 추가.
-```
-{
-    "Host": {
-      "CORS": "http://localhost:3000"
+    ```
+    {
+        "Host": {
+          "CORS": "http://localhost:3000"
+        }
     }
-}
-```
+    ```
 1. /chamomile/api 로 이동해서 Azure functions 시작.
 ```func start```
 1. /chamomile/react-app 으로 이동해서 npm 시작.
