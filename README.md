@@ -9,5 +9,25 @@ https://english.hani.co.kr/arti/english_edition/e_national/996602.html)
 
 각자의 자리에서 고군분투하고 있는 우리 스스로에게 잘하고 있다고 위로해볼까요? 여러 분 안에서 응원의 말을 꺼내기 어렵다면 저희가 도와드릴게요. 매일 아침 마음의 비타민을 건내주는 따뜻한 캐모마일 페이지를 소개합니다.
 
+# 로컬에서 실행하는 방법
+1. 리포지토리 Clone.
+```git clone https://github.com/TeamChamomile/chamomile/.git```
+1. /chamomile/react-app 으로 이동해서 npm 패키지를 다운로드.
+```npm install```
+1. Azure Functions Core Tools 설치.
+[Azure Functions Core Tools 기술 문서](https://docs.microsoft.com/ko-kr/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash)
+1. /chamomile/api 아래 local.settings.json 파일을 생성하여 다음 내용 추가.
+```
+{
+    "Host": {
+      "CORS": "http://localhost:3000"
+    }
+}
+```
+1. /chamomile/api 로 이동해서 Azure functions 시작.
+```func start```
+1. /chamomile/react-app 으로 이동해서 npm 시작.
+```npm start```
 
-
+# Credits
+이 페이지는 Microsoft Learn의 Azure Static Web Apps와 GitHub Actions 모듈을 차근히 완료한 페이지입니다. 여러분도 [Hackalearn 클라우드 도전과제](https://docs.microsoft.com/ko-kr/learn/challenges?id=eae8a699-e376-419f-b837-3661ed77b239&WT.mc_id=devcloud-33673-juyoo&ocid=AID3035096)로 쉽게 만들어보세요. 
