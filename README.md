@@ -1,3 +1,8 @@
+[![Azure Static Web Apps CI/CD](https://github.com/TeamChamomile/chamomile/actions/workflows/azure-static-web-apps-agreeable-ground-0cb02be00.yml/badge.svg)](https://github.com/TeamChamomile/chamomile/actions/workflows/azure-static-web-apps-agreeable-ground-0cb02be00.yml)
+
+# Chamomile 라이브 데모
+Azure Static Web App, Azure Functions, 그리고 GitHub Actions로 만들어졌습니다. [캐모마일 페이지](https://agreeable-ground-0cb02be00.azurestaticapps.net/about)에 놀러오세요.
+
 # Chamomile 소개
 안녕하세요, 여러분. 갑작스럽게 찾아온 전세계 역병으로 매일의 일상이 온전히 바뀌었습니다. 혹자는 2025년으로 예상되었던 산업의 발전이 코로나로 인해 10년 당겨졌다고 평가하고, 뉴노멀이 나쁘지 않다는 이야기도 삼삼히 들립니다. 하지만, 매일 아침 맞이하는 우리의 일상은 조금 더 작아진 생활 반경과 공동체 안에서 답답하기만 합니다. 
 
@@ -8,9 +13,6 @@ _OECD 나라 별 불안과 불안 증세를 2019년과 2020년 초기를 비교�
 https://english.hani.co.kr/arti/english_edition/e_national/996602.html)
 
 각자의 자리에서 고군분투하고 있는 우리 스스로에게 잘하고 있다고 위로해볼까요? 여러 분 안에서 응원의 말을 꺼내기 어렵다면 저희가 도와드릴게요. 매일 아침 마음의 비타민을 건내주는 따뜻한 캐모마일 페이지를 소개합니다.
-
-# Chamomile 라이브 데모
-Azure Static Web App, Azure Functions, 그리고 GitHub Actions로 만들어졌습니다. [캐모마일 페이지](https://agreeable-ground-0cb02be00.azurestaticapps.net/about)에 놀러오세요.
 
 # 로컬에서 실행하는 방법
 1. 리포지토리 Clone.
