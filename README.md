@@ -9,6 +9,9 @@ https://english.hani.co.kr/arti/english_edition/e_national/996602.html)
 
 각자의 자리에서 고군분투하고 있는 우리 스스로에게 잘하고 있다고 위로해볼까요? 여러 분 안에서 응원의 말을 꺼내기 어렵다면 저희가 도와드릴게요. 매일 아침 마음의 비타민을 건내주는 따뜻한 캐모마일 페이지를 소개합니다.
 
+# Chamomile 라이브 데모
+Azure Static Web App, Azure Functions, 그리고 GitHub Actions로 만들어졌습니다. [캐모마일 페이지](https://agreeable-ground-0cb02be00.azurestaticapps.net/about)에 놀러오세요.
+
 # 로컬에서 실행하는 방법
 1. 리포지토리 Clone.
     ```git clone https://github.com/TeamChamomile/chamomile/.git```
